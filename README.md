@@ -1,13 +1,5 @@
----
-language: en
-tags:
-- exbert
 
-license: mit
----
-
-
-# GPT-2
+# How to use GPT-2 on the AI agent?
 
 Test the whole generation capabilities here: https://transformer.huggingface.co/doc/gpt2-large
 
@@ -150,18 +142,3 @@ The model achieves the following results without any fine-tuning (zero-shot):
 |:--------:|:-------:|:-------:|:------:|:------:|:---------:|:------:|:-------:|:------:|:-----------:|:-----:|
 | (metric) | (PPL)   | (ACC)   | (ACC)  | (ACC)  | (PPL)     | (PPL)  | (BPB)   | (BPC)  | (PPL)       | (PPL) |
 |          | 35.13   | 45.99   | 87.65  | 83.4   | 29.41     | 65.85  | 1.16    | 1,17   | 37.50       | 75.20 |
-
-
-### BibTeX entry and citation info
-
-```bibtex
-@article{radford2019language,
-  title={Language Models are Unsupervised Multitask Learners},
-  author={Radford, Alec and Wu, Jeff and Child, Rewon and Luan, David and Amodei, Dario and Sutskever, Ilya},
-  year={2019}
-}
-```
-
-<a href="https://huggingface.co/exbert/?model=gpt2">
-	<img width="300px" src="https://cdn-media.huggingface.co/exbert/button.png">
-</a>
